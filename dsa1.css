@@ -69,13 +69,29 @@ video{
     -webkit-text-stroke: 3px cyan;
     z-index: -1;
 }
+#page1 h1:hover{
+    top:-6px;
+    left: -6px;
+    color: aqua;
+
+
+}
 #page1 h2{
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 25px;
 }
+#tyu:hover{
+    font-size:30px ;
+    color: greenyellow;
+}
 #page2{
     height: 100vh;
-    width: 100%;
-    position: relative;
+    width: 100%; 
+}
+#nav h3:hover{
+    color: aqua;
+    font-size: 20px;
+    font-weight:900;
+    transform:translateY(10px);
 }
